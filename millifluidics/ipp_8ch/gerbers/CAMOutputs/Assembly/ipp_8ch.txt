@@ -1,0 +1,5 @@
+Partlist exported from /Users/heinsz/Documents/EAGLE/projects/ipp_8ch/ipp_8ch.sch at 1/12/22 3:33 PM
+
+Qty Value                  Device                 Package                     Parts                                                                                                                                   Description 
+12  10-32_BARBED_CONNECTOR 10-32_BARBED_CONNECTOR 10-32_BARBED_CONNECTOR      U$5, U$8, U$12, U$16, U$20, U$24, U$28, U$32, U$33, U$34, U$35, U$36                                                                                
+24  PNEUMATIC_VALVE_2_4MM  PNEUMATIC_VALVE_2_4MM  2_4MM_PNEUMATIC_VALVE_C5_F4 U$1, U$2, U$3, U$4, U$6, U$7, U$9, U$10, U$11, U$13, U$14, U$15, U$17, U$18, U$19, U$21, U$22, U$23, U$25, U$26, U$27, U$29, U$30, U$31             

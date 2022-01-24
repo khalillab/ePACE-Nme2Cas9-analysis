@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="L1-S1T" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="L2-S1R" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="L3-S1R" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="L4-S1B" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="L5-S2T" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="L6-S2R" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="L7-S2R" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="L8-S2B" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="L9-S3T" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="L10-S3R" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="L11-S3R" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="L12-S3B" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="L13-S4T" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="L13-S4R" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="L14-S4R" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="L16-S4B" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Membrane_Via_L4_L5" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Membrane_Via_L8_L9" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Membrane_Via_L12_L13" color="39" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="5.08" y1="20.32" x2="105.39" y2="20.32" width="0" layer="20"/>
+<wire x1="105.39" y1="20.32" x2="105.39" y2="66.04" width="0" layer="20"/>
+<wire x1="105.39" y1="66.04" x2="5.08" y2="66.04" width="0" layer="20"/>
+<wire x1="5.08" y1="66.04" x2="5.08" y2="20.32" width="0" layer="20"/>
+<dimension x1="20.32" y1="25.4" x2="31.75" y2="25.4" x3="26.035" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="31.75" y1="25.4" x2="43.18" y2="25.4" x3="37.465" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="43.18" y1="25.4" x2="54.61" y2="25.4" x3="48.895" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="54.61" y1="25.4" x2="66.04" y2="25.4" x3="60.325" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="66.04" y1="25.4" x2="77.47" y2="25.4" x3="71.755" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="77.47" y1="25.4" x2="88.9" y2="25.4" x3="83.185" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="88.9" y1="25.4" x2="100.33" y2="25.4" x3="94.615" y3="20.32" textsize="1.778" layer="1"/>
+<dimension x1="10.16" y1="30.48" x2="10.16" y2="41.91" x3="3.81" y3="36.195" textsize="1.778" layer="1"/>
+<dimension x1="10.16" y1="41.91" x2="10.16" y2="53.34" x3="3.81" y3="47.625" textsize="1.778" layer="1"/>
+</plain>
+<libraries>
+<library name="Millfluidics_Library">
+<packages>
+<package name="2_4MM_PNEUMATIC_VALVE_C5_F4">
+<description>2.4mm is the width of the valve measured from the bridge area (middle).
+The length of the the bridge should be 0.5 times the width of the valve.</description>
+<pad name="P$1" x="-2.75" y="0" drill="0.000003125" diameter="0.000003125"/>
+<pad name="P$2" x="2.75" y="0" drill="0.000003125" diameter="0.000003125"/>
+<pad name="P$3" x="0" y="-0.02" drill="0.000003125" diameter="0.000003125"/>
+<polygon width="0.127" layer="4">
+<vertex x="-0.6" y="1.2" curve="180"/>
+<vertex x="-0.6" y="-1.2"/>
+</polygon>
+<polygon width="0.127" layer="4">
+<vertex x="0.6" y="1.2" curve="-180"/>
+<vertex x="0.6" y="-1.2"/>
+</polygon>
+<rectangle x1="0.6" y1="-0.4" x2="2.75" y2="0.4" layer="4"/>
+<rectangle x1="-2.75" y1="-0.4" x2="-0.6" y2="0.4" layer="4" rot="R180"/>
+<polygon width="0.127" layer="5">
+<vertex x="0.75" y="1.35"/>
+<vertex x="-0.75" y="1.35" curve="180"/>
+<vertex x="-0.75" y="-1.35"/>
+<vertex x="0.75" y="-1.35" curve="180"/>
+</polygon>
+<polygon width="0.127" layer="2">
+<vertex x="0.75" y="1.35"/>
+<vertex x="-0.75" y="1.35" curve="180"/>
+<vertex x="-0.75" y="-1.35"/>
+<vertex x="0.75" y="-1.35" curve="180"/>
+</polygon>
+</package>
+<package name="10-32_BARBED_CONNECTOR">
+<wire x1="0" y1="2.032" x2="-0.0254" y2="2.032" width="0.127" layer="1" curve="-359.29702"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<pad name="P$1" x="0" y="0" drill="0.000003125" diameter="0.000003125"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default *">
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.
+</description>
+<param name="layerSetup" value="(1*2*3*4)*(5*6*7*8)*(9*10*11*12)*(13*14*15*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="0.15mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="0.00011875mm"/>
+<param name="msDrill" value="0.00011875mm"/>
+<param name="msMicroVia" value="0.00011875mm"/>
+<param name="msBlindViaRatio" value="0.25"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="0.00011875mm"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="0.00011875mm"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="0.00011875mm"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="0.00011875mm"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="0.00011875mm"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="0.00011875mm"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="0.00011875mm"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="999999"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="U$1" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="20.32" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$2" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="20.32" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$3" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="20.32" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$5" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="20.32" y="25.4" smashed="yes">
+<attribute name="NAME" x="16.51" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$4" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="31.75" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$6" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="31.75" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$7" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="31.75" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$8" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="31.75" y="25.4" smashed="yes">
+<attribute name="NAME" x="27.94" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$9" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="43.18" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$10" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="43.18" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$11" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="43.18" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$12" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="43.18" y="25.4" smashed="yes">
+<attribute name="NAME" x="39.37" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$13" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="54.61" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$14" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="54.61" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$15" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="54.61" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$16" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="54.61" y="25.4" smashed="yes">
+<attribute name="NAME" x="50.8" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$17" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="66.039996875" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$18" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="66.04" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$19" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="66.04" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$20" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="66.04" y="25.4" smashed="yes">
+<attribute name="NAME" x="62.23" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$21" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="77.47" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$22" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="77.47" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$23" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="77.47" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$24" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="77.47" y="25.4" smashed="yes">
+<attribute name="NAME" x="73.66" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$25" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="88.9" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$26" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="88.9" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$27" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="88.9" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$28" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="88.9" y="25.4" smashed="yes">
+<attribute name="NAME" x="85.09" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$29" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="100.33" y="49.53" smashed="yes" rot="R270"/>
+<element name="U$30" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="100.33" y="41.91" smashed="yes" rot="R270"/>
+<element name="U$31" library="Millfluidics_Library" package="2_4MM_PNEUMATIC_VALVE_C5_F4" value="PNEUMATIC_VALVE_2_4MM" x="100.33" y="34.29" smashed="yes" rot="R270"/>
+<element name="U$32" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="100.33" y="25.4" smashed="yes">
+<attribute name="NAME" x="96.52" y="27.94" size="1.27" layer="25"/>
+</element>
+<element name="U$33" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="60.3377" y="60.96" smashed="yes"/>
+<element name="U$34" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="10.16" y="53.34" smashed="yes">
+<attribute name="NAME" x="6.35" y="55.88" size="1.27" layer="25"/>
+</element>
+<element name="U$35" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="10.16" y="41.91" smashed="yes">
+<attribute name="NAME" x="6.35" y="44.45" size="1.27" layer="25"/>
+</element>
+<element name="U$36" library="Millfluidics_Library" package="10-32_BARBED_CONNECTOR" value="10-32_BARBED_CONNECTOR" x="10.16" y="30.48" smashed="yes">
+<attribute name="NAME" x="6.35" y="33.02" size="1.27" layer="25"/>
+</element>
+</elements>
+<signals>
+<signal name="N$1">
+<contactref element="U$1" pad="P$2"/>
+<contactref element="U$2" pad="P$1"/>
+<wire x1="20.32" y1="46.78" x2="20.32" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$2" pad="P$2"/>
+<contactref element="U$3" pad="P$1"/>
+<wire x1="20.32" y1="39.16" x2="20.32" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$3" pad="P$2"/>
+<contactref element="U$5" pad="P$1"/>
+<wire x1="20.32" y1="31.54" x2="20.32" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$3">
+<contactref element="U$4" pad="P$2"/>
+<contactref element="U$6" pad="P$1"/>
+<wire x1="31.75" y1="46.78" x2="31.75" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$5">
+<contactref element="U$6" pad="P$2"/>
+<contactref element="U$7" pad="P$1"/>
+<wire x1="31.75" y1="39.16" x2="31.75" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$6">
+<contactref element="U$7" pad="P$2"/>
+<contactref element="U$8" pad="P$1"/>
+<wire x1="31.75" y1="31.54" x2="31.75" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$7">
+<contactref element="U$9" pad="P$2"/>
+<contactref element="U$10" pad="P$1"/>
+<wire x1="43.18" y1="46.78" x2="43.18" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$8">
+<contactref element="U$10" pad="P$2"/>
+<contactref element="U$11" pad="P$1"/>
+<wire x1="43.18" y1="39.16" x2="43.18" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$9">
+<contactref element="U$11" pad="P$2"/>
+<contactref element="U$12" pad="P$1"/>
+<wire x1="43.18" y1="31.54" x2="43.18" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$10">
+<contactref element="U$13" pad="P$2"/>
+<contactref element="U$14" pad="P$1"/>
+<wire x1="54.61" y1="46.78" x2="54.61" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$14" pad="P$2"/>
+<contactref element="U$15" pad="P$1"/>
+<wire x1="54.61" y1="39.16" x2="54.61" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$12">
+<contactref element="U$15" pad="P$2"/>
+<contactref element="U$16" pad="P$1"/>
+<wire x1="54.61" y1="31.54" x2="54.61" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$13">
+<contactref element="U$17" pad="P$2"/>
+<contactref element="U$18" pad="P$1"/>
+<wire x1="66.039996875" y1="46.78" x2="66.039996875" y2="44.660003125" width="0.799996875" layer="4"/>
+<wire x1="66.039996875" y1="44.660003125" x2="66.04" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$14">
+<contactref element="U$18" pad="P$2"/>
+<contactref element="U$19" pad="P$1"/>
+<wire x1="66.04" y1="39.16" x2="66.04" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$15">
+<contactref element="U$19" pad="P$2"/>
+<contactref element="U$20" pad="P$1"/>
+<wire x1="66.04" y1="31.54" x2="66.04" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$16">
+<contactref element="U$21" pad="P$2"/>
+<contactref element="U$22" pad="P$1"/>
+<wire x1="77.47" y1="46.78" x2="77.47" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$22" pad="P$2"/>
+<contactref element="U$23" pad="P$1"/>
+<wire x1="77.47" y1="39.16" x2="77.47" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$18">
+<contactref element="U$23" pad="P$2"/>
+<contactref element="U$24" pad="P$1"/>
+<wire x1="77.47" y1="31.54" x2="77.47" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$19">
+<contactref element="U$25" pad="P$2"/>
+<contactref element="U$26" pad="P$1"/>
+<wire x1="88.9" y1="46.78" x2="88.9" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$20">
+<contactref element="U$26" pad="P$2"/>
+<contactref element="U$27" pad="P$1"/>
+<wire x1="88.9" y1="39.16" x2="88.9" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$21">
+<contactref element="U$27" pad="P$2"/>
+<contactref element="U$28" pad="P$1"/>
+<wire x1="88.9" y1="31.54" x2="88.9" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$22">
+<contactref element="U$29" pad="P$2"/>
+<contactref element="U$30" pad="P$1"/>
+<wire x1="100.33" y1="46.78" x2="100.33" y2="44.66" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$23">
+<contactref element="U$30" pad="P$2"/>
+<contactref element="U$31" pad="P$1"/>
+<wire x1="100.33" y1="39.16" x2="100.33" y2="37.04" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$24">
+<contactref element="U$31" pad="P$2"/>
+<contactref element="U$32" pad="P$1"/>
+<wire x1="100.33" y1="31.54" x2="100.33" y2="25.4" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$25">
+<contactref element="U$33" pad="P$1"/>
+<contactref element="U$1" pad="P$1"/>
+<contactref element="U$4" pad="P$1"/>
+<contactref element="U$17" pad="P$1"/>
+<contactref element="U$21" pad="P$1"/>
+<contactref element="U$25" pad="P$1"/>
+<contactref element="U$29" pad="P$1"/>
+<contactref element="U$13" pad="P$1"/>
+<contactref element="U$9" pad="P$1"/>
+<wire x1="20.32" y1="52.28" x2="20.32" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="20.32" y1="54.61" x2="21.59" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="21.59" y1="55.88" x2="33.02" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="33.02" y1="55.88" x2="44.45" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="44.45" y1="55.88" x2="55.88" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="55.88" y1="55.88" x2="59.69" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="59.69" y1="55.88" x2="60.96" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="60.96" y1="55.88" x2="64.77" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="64.77" y1="55.88" x2="76.2" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="76.2" y1="55.88" x2="87.63" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="87.63" y1="55.88" x2="99.06" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="100.33" y1="54.61" x2="99.06" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="100.33" y1="52.28" x2="100.33" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="88.9" y1="52.28" x2="88.9" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="88.9" y1="54.61" x2="87.63" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="77.47" y1="52.28" x2="77.47" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="77.47" y1="54.61" x2="76.2" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="66.039996875" y1="52.28" x2="66.039996875" y2="54.609996875" width="0.799996875" layer="4"/>
+<wire x1="66.039996875" y1="54.609996875" x2="66.04" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="66.04" y1="54.61" x2="64.77" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="54.61" y1="52.28" x2="54.61" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="54.61" y1="54.61" x2="55.88" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="43.18" y1="52.28" x2="43.18" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="43.18" y1="54.61" x2="44.45" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="31.75" y1="52.28" x2="31.75" y2="54.61" width="0.799996875" layer="4"/>
+<wire x1="31.75" y1="54.61" x2="33.02" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="60.3377" y1="56.5277" x2="60.3377" y2="60.96" width="0.799996875" layer="4"/>
+<wire x1="60.3377" y1="56.5277" x2="59.69" y2="55.88" width="0.799996875" layer="4"/>
+<wire x1="60.96" y1="55.88" x2="60.3377" y2="56.5023" width="0.799996875" layer="4"/>
+<wire x1="60.3377" y1="56.5023" x2="60.3377" y2="60.96" width="0.799996875" layer="4"/>
+</signal>
+<signal name="N$26">
+<contactref element="U$34" pad="P$1"/>
+<contactref element="U$1" pad="P$3"/>
+<contactref element="U$4" pad="P$3"/>
+<contactref element="U$9" pad="P$3"/>
+<contactref element="U$13" pad="P$3"/>
+<contactref element="U$17" pad="P$3"/>
+<contactref element="U$21" pad="P$3"/>
+<contactref element="U$25" pad="P$3"/>
+<contactref element="U$29" pad="P$3"/>
+<wire x1="10.16" y1="53.34" x2="13.97" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="13.97" y1="49.53" x2="20.3" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="31.73" y1="49.53" x2="20.3" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="43.16" y1="49.53" x2="31.73" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="54.59" y1="49.53" x2="43.16" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="66.019996875" y1="49.53" x2="54.59" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="77.45" y1="49.53" x2="66.019996875" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="88.88" y1="49.53" x2="77.45" y2="49.53" width="0.799996875" layer="5"/>
+<wire x1="100.31" y1="49.53" x2="88.88" y2="49.53" width="0.799996875" layer="5"/>
+</signal>
+<signal name="N$27">
+<contactref element="U$35" pad="P$1"/>
+<contactref element="U$2" pad="P$3"/>
+<contactref element="U$6" pad="P$3"/>
+<contactref element="U$10" pad="P$3"/>
+<contactref element="U$14" pad="P$3"/>
+<contactref element="U$18" pad="P$3"/>
+<contactref element="U$22" pad="P$3"/>
+<contactref element="U$26" pad="P$3"/>
+<contactref element="U$30" pad="P$3"/>
+<wire x1="10.16" y1="41.91" x2="20.3" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="31.73" y1="41.91" x2="20.3" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="43.16" y1="41.91" x2="31.73" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="54.59" y1="41.91" x2="43.16" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="66.02" y1="41.91" x2="54.59" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="77.45" y1="41.91" x2="66.02" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="88.88" y1="41.91" x2="77.45" y2="41.91" width="0.799996875" layer="5"/>
+<wire x1="100.31" y1="41.91" x2="88.88" y2="41.91" width="0.799996875" layer="5"/>
+</signal>
+<signal name="N$28">
+<contactref element="U$36" pad="P$1"/>
+<contactref element="U$3" pad="P$3"/>
+<contactref element="U$7" pad="P$3"/>
+<contactref element="U$11" pad="P$3"/>
+<contactref element="U$15" pad="P$3"/>
+<contactref element="U$19" pad="P$3"/>
+<contactref element="U$23" pad="P$3"/>
+<contactref element="U$27" pad="P$3"/>
+<contactref element="U$31" pad="P$3"/>
+<wire x1="10.16" y1="30.48" x2="13.97" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="13.97" y1="34.29" x2="20.3" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="31.73" y1="34.29" x2="20.3" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="43.16" y1="34.29" x2="31.73" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="54.59" y1="34.29" x2="43.16" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="66.02" y1="34.29" x2="54.59" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="77.45" y1="34.29" x2="66.02" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="88.88" y1="34.29" x2="77.45" y2="34.29" width="0.799996875" layer="5"/>
+<wire x1="100.31" y1="34.29" x2="88.88" y2="34.29" width="0.799996875" layer="5"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+</eagle>
